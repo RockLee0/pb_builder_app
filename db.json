@@ -1,0 +1,587 @@
+{
+"products": [
+      {
+        "id":"1",
+        "ProductName": "Intel Core i7-10700K",
+        "Category": "CPU_Processor",
+        "Price": 379,
+        "Status": "In Stock",
+        "Rating": 4.7,
+        "Image": "https://example.com/images/i7-10700k.jpg",
+        "Description": "The Intel Core i7-10700K is a high-performance 10th generation processor for gaming and heavy multitasking.",
+        "KeyFeatures": {
+          "Brand": "Intel",
+          "Model": "Core i7-10700K",
+          "Specification": "8 Cores, 16 Threads, 3.8 GHz base clock, 5.1 GHz max turbo clock"
+        },
+        "IndividualRating": 4.7,
+        "AverageRating": 4.7,
+        "Reviews": [
+          {
+            "Rating": 5,
+            "Comment": "Excellent processor, runs cool even under heavy load."
+          },
+          {
+            "Rating": 4,
+            "Comment": "Great for gaming and content creation tasks."
+          }
+        ]
+      },
+      {
+        "id":"2",
+        "ProductName": "AMD Ryzen 9 5900X",
+        "Category": "CPU_Processor",
+        "Price": 549,
+        "Status": "In Stock",
+        "Rating": 4.9,
+        "Image": "https://example.com/images/ryzen-9-5900x.jpg",
+        "Description": "The AMD Ryzen 9 5900X is a powerful 12-core processor for enthusiasts and professionals.",
+        "KeyFeatures": {
+          "Brand": "AMD",
+          "Model": "Ryzen 9 5900X",
+          "Specification": "12 Cores, 24 Threads, 3.7 GHz base clock, 4.8 GHz max boost clock"
+        },
+        "IndividualRating": 4.9,
+        "AverageRating": 4.8,
+        "Reviews": [
+          {
+            "Rating": 5,
+            "Comment": "Amazing performance, no regrets upgrading to this CPU."
+          },
+          {
+            "Rating": 4,
+            "Comment": "Runs like a beast, handles multitasking like a breeze."
+          }
+        ]
+      },
+      {
+        "id":"3",
+        "ProductName": "Intel Core i5-11600K",
+        "Category": "CPU_Processor",
+        "Price": 269,
+        "Status": "In Stock",
+        "Rating": 4.6,
+        "Image": "https://example.com/images/i5-11600k.jpg",
+        "Description": "The Intel Core i5-11600K is a reliable 11th generation processor suitable for gaming and everyday tasks.",
+        "KeyFeatures": {
+          "Brand": "Intel",
+          "Model": "Core i5-11600K",
+          "Specification": "6 Cores, 12 Threads, 3.9 GHz base clock, 4.9 GHz max turbo clock"
+        },
+        "IndividualRating": 4.6,
+        "AverageRating": 4.6,
+        "Reviews": [
+          {
+            "Rating": 4,
+            "Comment": "Fast and efficient processor for gaming, streaming, and video editing."
+          },
+          {
+            "Rating": 5,
+            "Comment": "Handles all my tasks smoothly, couldn't be happier with the performance."
+          }
+        ]
+      },
+
+
+      {
+        "id":"4",
+        "ProductName": "ASUS ROG Strix B550-F",
+        "Category": "Motherboard",
+        "Price": 189,
+        "Status": "In Stock",
+        "Rating": 4.8,
+        "Image": "https://example.com/images/asus-rog-strix-b550-f.jpg",
+        "Description": "The ASUS ROG Strix B550-F is a feature-rich ATX motherboard designed for gaming enthusiasts.",
+        "KeyFeatures": {
+          "Brand": "ASUS",
+          "Model": "ROG Strix B550-F",
+          "Specification": "AMD B550 chipset, AM4 socket, PCIe 4.0 support, SupremeFX audio"
+        },
+        "IndividualRating": 4.8,
+        "AverageRating": 4.8,
+        "Reviews": [
+          {
+            "Rating": 5,
+            "Comment": "Great motherboard with solid performance and plenty of connectivity options."
+          },
+          {
+            "Rating": 4,
+            "Comment": "Easy to set up, the RGB lighting adds a nice touch to my build."
+          }
+        ]
+      },
+      {
+        "id":"5",
+        "ProductName": "MSI MPG Z490 Gaming",
+        "Category": "Motherboard",
+        "Price": 229,
+        "Status": "Out of stock",
+        "Rating": 4.6,
+        "Image": "https://example.com/images/msi-mpg-z490-gaming.jpg",
+        "Description": "The MSI MPG Z490 Gaming is a reliable ATX motherboard for gaming and content creation.",
+        "KeyFeatures": {
+          "Brand": "MSI",
+          "Model": "MPG Z490 Gaming",
+          "Specification": "Intel Z490 chipset, LGA 1200 socket, M.2 slots, DDR4 support"
+        },
+        "IndividualRating": 4.6,
+        "AverageRating": 4.6,
+        "Reviews": [
+          {
+            "Rating": 4,
+            "Comment": "Solid motherboard, easy BIOS update process."
+          },
+          {
+            "Rating": 5,
+            "Comment": "Great build quality and reliable performance, no complaints."
+          }
+        ]
+      },
+      {
+        "id":"6",
+        "ProductName": "ASRock B450M Pro4",
+        "Category": "Motherboard",
+        "Price": 89,
+        "Status": "In Stock",
+        "Rating": 4.5,
+        "Image": "https://example.com/images/asrock-b450m-pro4.jpg",
+        "Description": "The ASRock B450M Pro4 is a budget-friendly micro ATX motherboard with good performance.",
+        "KeyFeatures": {
+          "Brand": "ASRock",
+          "Model": "B450M Pro4",
+          "Specification": "AMD B450 chipset, AM4 socket, M.2 support, DDR4 boost"
+        },
+        "IndividualRating": 4.5,
+        "AverageRating": 4.5,
+        "Reviews": [
+          {
+            "Rating": 4,
+            "Comment": "Affordable motherboard with decent features, works well for my build."
+          },
+          {
+            "Rating": 5,
+            "Comment": "Reliable and easy to install, can't go wrong at this price."
+          }
+        ]
+      },
+
+
+      {
+        "id":"7",
+        "ProductName": "Corsair Vengeance LPX 16GB",
+        "Category": "RAM",
+        "Price": 79,
+        "Status": "In Stock",
+        "Rating": 4.7,
+        "Image": "https://example.com/images/corsair-vengeance-lpx-16gb.jpg",
+        "Description": "The Corsair Vengeance LPX 16GB RAM kit delivers high-speed performance for gaming and multitasking.",
+        "KeyFeatures": {
+          "Brand": "Corsair",
+          "Model": "Vengeance LPX 16GB",
+          "Specification": "DDR4 3200MHz, CAS Latency 16, XMP 2.0 support, low-profile design"
+        },
+        "IndividualRating": 4.7,
+        "AverageRating": 4.7,
+        "Reviews": [
+          {
+            "Rating": 5,
+            "Comment": "Fast and reliable RAM, works perfectly with my Ryzen CPU."
+          },
+          {
+            "Rating": 4,
+            "Comment": "Solid performance, the low-profile design fits well in my build."
+          }
+        ]
+      },
+      {
+        "id":"8",
+        "ProductName": "G.Skill Trident Z Neo 32GB",
+        "Category": "RAM",
+        "Price": 159,
+        "Status": "Out of stock",
+        "Rating": 4.9,
+        "Image": "https://example.com/images/gskill-trident-z-neo-32gb.jpg",
+        "Description": "The G.Skill Trident Z Neo 32GB RAM kit is optimized for AMD Ryzen platforms, delivering excellent performance.",
+        "KeyFeatures": {
+          "Brand": "G.Skill",
+          "Model": "Trident Z Neo 32GB",
+          "Specification": "DDR4 3600MHz, CAS Latency 18, XMP 2.0 support, RGB lighting"
+        },
+        "IndividualRating": 4.9,
+        "AverageRating": 4.8,
+        "Reviews": [
+          {
+            "Rating": 5,
+            "Comment": "Top-notch RAM, works perfectly with my Ryzen 9 5900X."
+          },
+          {
+            "Rating": 5,
+            "Comment": "Stable and fast, the RGB lighting looks amazing in my build."
+          }
+        ]
+      },
+      {
+        "id":"9",
+        "ProductName": "Crucial Ballistix 32GB",
+        "Category": "RAM",
+        "Price": 149,
+        "Status": "In Stock",
+        "Rating": 4.6,
+        "Image": "https://example.com/images/crucial-ballistix-32gb.jpg",
+        "Description": "The Crucial Ballistix 32GB RAM kit offers high-speed performance and reliability for intensive tasks.",
+        "KeyFeatures": {
+          "Brand": "Crucial",
+          "Model": "Ballistix 32GB",
+          "Specification": "DDR4 3200MHz, CAS Latency 16, XMP 2.0 support, heat spreader"
+        },
+        "IndividualRating": 4.6,
+        "AverageRating": 4.6,
+        "Reviews": [
+          {
+            "Rating": 4,
+            "Comment": "Reliable and fast RAM, performs well under heavy workloads."
+          },
+          {
+            "Rating": 5,
+            "Comment": "Great value for 32GB of RAM, has improved my system's performance significantly."
+          }
+        ]
+      },
+
+
+      {
+        "id":"10",
+        "ProductName": "Corsair RM750x",
+        "Category": "Power Supply Unit",
+        "Price": 129,
+        "Status": "In Stock",
+        "Rating": 4.7,
+        "Image": "https://example.com/images/corsair-rm750x.jpg",
+        "Description": "The Corsair RM750x is a high-quality 750W power supply unit for stable and efficient power delivery.",
+        "KeyFeatures": {
+          "Brand": "Corsair",
+          "Model": "RM750x",
+          "Specification": "750W, 80+ Gold certified, fully modular cables, silent operation"
+        },
+        "IndividualRating": 4.7,
+        "AverageRating": 4.7,
+        "Reviews": [
+          {
+            "Rating": 5,
+            "Comment": "Reliable PSU, runs silently and provides stable power to my components."
+          },
+          {
+            "Rating": 4,
+            "Comment": "Great efficiency, fully modular design makes cable management a breeze."
+          }
+        ]
+      },
+      {
+        "id":"11",
+        "ProductName": "be quiet! Straight Power 11",
+        "Category": "Power Supply Unit",
+        "Price": 129,
+        "Status": "In Stock",
+        "Rating": 4.7,
+        "Image": "https://example.com/images/be-quiet-straight-power-11.jpg",
+        "Description": "The be quiet! Straight Power 11 is a premium 750W power supply unit designed for silent performance.",
+        "KeyFeatures": {
+          "Brand": "be quiet!",
+          "Model": "Straight Power 11",
+          "Specification": "750W, 80+ Gold certified, fully modular cables, whisper-quiet operation"
+        },
+        "IndividualRating": 4.7,
+        "AverageRating": 4.7,
+        "Reviews": [
+          {
+            "Rating": 5,
+            "Comment": "Whisper-quiet PSU, works flawlessly with my high-end gaming rig."
+          },
+          {
+            "Rating": 4,
+            "Comment": "Top-notch build quality, the modular design is a bonus."
+          }
+        ]
+      },
+      {
+        "id":"12",
+        "ProductName": "Thermaltake Toughpower GF1",
+        "Category": "Power Supply Unit",
+        "Price": 159,
+        "Status": "Out of stock",
+        "Rating": 4.9,
+        "Image": "https://example.com/images/thermaltake-toughpower-gf1.jpg",
+        "Description": "The Thermaltake Toughpower GF1 is a high-efficiency 750W power supply unit with reliable performance.",
+        "KeyFeatures": {
+          "Brand": "Thermaltake",
+          "Model": "Toughpower GF1",
+          "Specification": "750W, 80+ Gold certified, fully modular cables, ultra-quiet fan"
+        },
+        "IndividualRating": 4.9,
+        "AverageRating": 4.8,
+        "Reviews": [
+          {
+            "Rating": 5,
+            "Comment": "Stable and efficient power delivery, great for overclocking."
+          },
+          {
+            "Rating": 5,
+            "Comment": "Quiet operation, the fully modular design keeps my build neat."
+          }
+        ]
+      },
+
+
+
+      {
+        "id":"13",
+        "ProductName": "Samsung 980 PRO 1TB",
+        "Category": "Storage Device",
+        "Price": 229,
+        "Status": "In Stock",
+        "Rating": 4.9,
+        "Image": "https://example.com/images/samsung-980-pro-1tb.jpg",
+        "Description": "The Samsung 980 PRO 1TB is a high-performance NVMe SSD, perfect for fast boot times and data access.",
+        "KeyFeatures": {
+          "Brand": "Samsung",
+          "Model": "980 PRO 1TB",
+          "Specification": "NVMe M.2, PCIe 4.0, sequential read speeds up to 7000 MB/s"
+        },
+        "IndividualRating": 4.9,
+        "AverageRating": 4.9,
+        "Reviews": [
+          {
+            "Rating": 5,
+            "Comment": "Blazing-fast SSD, my system boots in seconds."
+          },
+          {
+            "Rating": 5,
+            "Comment": "Outstanding performance, a noticeable improvement over my previous SSD."
+          }
+        ]
+      },
+      {
+        "id":"14",
+        "ProductName": "WD Blue 2TB",
+        "Category": "Storage Device",
+        "Price": 54,
+        "Status": "In Stock",
+        "Rating": 4.6,
+        "Image": "https://example.com/images/wd-blue-2tb.jpg",
+        "Description": "The WD Blue 2TB is a reliable SATA III HDD, offering ample storage for all your files.",
+        "KeyFeatures": {
+          "Brand": "Western Digital",
+          "Model": "Blue 2TB",
+          "Specification": "SATA III, 5400 RPM, 64MB cache, low power consumption"
+        },
+        "IndividualRating": 4.6,
+        "AverageRating": 4.6,
+        "Reviews": [
+          {
+            "Rating": 4,
+            "Comment": "Affordable and spacious storage solution, great for media files."
+          },
+          {
+            "Rating": 5,
+            "Comment": "Reliable HDD, works perfectly for my data storage needs."
+          }
+        ]
+      },
+      {
+        "id":"15",
+        "ProductName": "Seagate FireCuda 2TB",
+        "Category": "Storage Device",
+        "Price": 89,
+        "Status": "In Stock",
+        "Rating": 4.7,
+        "Image": "https://example.com/images/seagate-firecuda-2tb.jpg",
+        "Description": "The Seagate FireCuda 2TB is a hybrid SSHD, providing both speed and storage capacity.",
+        "KeyFeatures": {
+          "Brand": "Seagate",
+          "Model": "FireCuda 2TB",
+          "Specification": "SSHD, SATA III, 7200 RPM, 8GB NAND flash, adaptive memory technology"
+        },
+        "IndividualRating": 4.7,
+        "AverageRating": 4.7,
+        "Reviews": [
+          {
+            "Rating": 5,
+            "Comment": "Fast and efficient hybrid drive, great for gaming and storage."
+          },
+          {
+            "Rating": 4,
+            "Comment": "Solid performance, the NAND flash cache speeds up frequently accessed files."
+          }
+        ]
+      },
+
+
+
+      {
+        "id":"16",
+        "ProductName": "LG UltraGear 27GL850-B",
+        "Category": "Monitor",
+        "Price": 449,
+        "Status": "In Stock",
+        "Rating": 4.8,
+        "Image": "https://example.com/images/lg-ultragear-27gl850-b.jpg",
+        "Description": "The LG UltraGear 27GL850-B is a high-quality gaming monitor with a fast refresh rate and vibrant colors.",
+        "KeyFeatures": {
+          "Brand": "LG",
+          "Model": "UltraGear 27GL850-B",
+          "Specification": "27-inch IPS, 2560x1440 resolution, 144Hz refresh rate, 1ms response time"
+        },
+        "IndividualRating": 4.8,
+        "AverageRating": 4.8,
+        "Reviews": [
+          {
+            "Rating": 5,
+            "Comment": "Excellent gaming monitor, the high refresh rate makes a difference."
+          },
+          {
+            "Rating": 4,
+            "Comment": "Vibrant colors and smooth gameplay, great for competitive gaming."
+          }
+        ]
+      },
+      {
+        "id":"17",
+        "ProductName": "ASUS ROG Swift PG279Q",
+        "Category": "Monitor",
+        "Price": 699,
+        "Status": "Out of stock",
+        "Rating": 4.9,
+        "Image": "https://example.com/images/asus-rog-swift-pg279q.jpg",
+        "Description": "The ASUS ROG Swift PG279Q is a premium gaming monitor with a high refresh rate and G-Sync support.",
+        "KeyFeatures": {
+          "Brand": "ASUS",
+          "Model": "ROG Swift PG279Q",
+          "Specification": "27-inch IPS, 2560x1440 resolution, 165Hz refresh rate, G-Sync"
+        },
+        "IndividualRating": 4.9,
+        "AverageRating": 4.9,
+        "Reviews": [
+          {
+            "Rating": 5,
+            "Comment": "Best gaming monitor I've ever owned, the G-Sync works flawlessly."
+          },
+          {
+            "Rating": 5,
+            "Comment": "Top-notch display, the 165Hz refresh rate makes a huge difference."
+          }
+        ]
+      },
+      {
+        "id":"18",
+        "ProductName": "AOC CQ32G1",
+        "Category": "Monitor",
+        "Price": 299,
+        "Status": "In Stock",
+        "Rating": 4.7,
+        "Image": "https://example.com/images/aoc-cq32g1.jpg",
+        "Description": "The AOC CQ32G1 is an affordable 32-inch curved gaming monitor with a high refresh rate.",
+        "KeyFeatures": {
+          "Brand": "AOC",
+          "Model": "CQ32G1",
+          "Specification": "32-inch VA, 2560x1440 resolution, 144Hz refresh rate, 1ms response time"
+        },
+        "IndividualRating": 4.7,
+        "AverageRating": 4.7,
+        "Reviews": [
+          {
+            "Rating": 4,
+            "Comment": "Great value for a 32-inch curved monitor, excellent for gaming."
+          },
+          {
+            "Rating": 5,
+            "Comment": "I love the immersive experience of the curved display."
+          }
+        ]
+      },
+
+
+
+      {
+        "id":"19",
+        "ProductName": "Logitech G Pro X",
+        "Category": "Others",
+        "Price": 129,
+        "Status": "In Stock",
+        "Rating": 4.7,
+        "Image": "https://example.com/images/logitech-g-pro-x.jpg",
+        "Description": "The Logitech G Pro X is a high-performance mechanical gaming keyboard with customizable switches.",
+        "KeyFeatures": {
+          "Brand": "Logitech",
+          "Model": "G Pro X",
+          "Specification": "Mechanical switches, tenkeyless design, customizable RGB lighting"
+        },
+        "IndividualRating": 4.7,
+        "AverageRating": 4.7,
+        "Reviews": [
+          {
+            "Rating": 5,
+            "Comment": "Fantastic keyboard, the customizable switches are a great feature."
+          },
+          {
+            "Rating": 4,
+            "Comment": "High-quality build and comfortable to use during long gaming sessions."
+          }
+        ]
+      },
+      {
+        "id":"20",
+        "ProductName": "Razer DeathAdder V2",
+        "Category": "Others",
+        "Price": 79,
+        "Status": "In Stock",
+        "Rating": 4.8,
+        "Image": "https://example.com/images/razer-deathadder-v2.jpg",
+        "Description": "The Razer DeathAdder V2 is a high-precision gaming mouse with a comfortable ergonomic design.",
+        "KeyFeatures": {
+          "Brand": "Razer",
+          "Model": "DeathAdder V2",
+          "Specification": "16,000 DPI optical sensor, Razer Optical Mouse Switches, ergonomic design"
+        },
+        "IndividualRating": 4.8,
+        "AverageRating": 4.8,
+        "Reviews": [
+          {
+            "Rating": 5,
+            "Comment": "The best gaming mouse I've ever used, comfortable and accurate."
+          },
+          {
+            "Rating": 5,
+            "Comment": "Precise tracking and customizable buttons, perfect for FPS games."
+          }
+        ]
+      },
+      {
+        "id":"21",
+        "ProductName": "SteelSeries Arctis Pro Wireless",
+        "Category": "Others",
+        "Price": 329,
+        "Status": "Out of stock",
+        "Rating": 4.9,
+        "Image": "https://example.com/images/steelseries-arctis-pro-wireless.jpg",
+        "Description": "The SteelSeries Arctis Pro Wireless is a high-end gaming headset with excellent sound quality and wireless convenience.",
+        "KeyFeatures": {
+          "Brand": "SteelSeries",
+          "Model": "Arctis Pro Wireless",
+          "Specification": "Lossless 2.4 GHz wireless, Hi-Res audio, dual-wireless technology"
+        },
+        "IndividualRating": 4.9,
+        "AverageRating": 4.9,
+        "Reviews": [
+          {
+            "Rating": 5,
+            "Comment": "Top-notch wireless headset, the sound quality is amazing."
+          },
+          {
+            "Rating": 5,
+            "Comment": "Comfortable and reliable, great for long gaming sessions."
+          }
+        ]
+      }
+    ]
+  }
+  
