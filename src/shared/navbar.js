@@ -1,5 +1,6 @@
 import React from 'react';
 import {Button, Space,Dropdown  } from 'antd';
+import Link from "next/link";
 
 const Navbar = () => {
   const headerStyle = {
@@ -91,6 +92,22 @@ const Navbar = () => {
     >
     <Button type="dashed">Categories</Button>
     </Dropdown>
+
+
+        <Link style={{ textDecoration: "none", color: "white" }} href="/login">
+        
+          <Button type="dashed" danger>
+            Login
+          </Button>
+          
+        </Link>
+        <items>
+          <Button type="primary" danger>
+            Logout
+          </Button>
+        </items>
+
+
     </Space>
     
     </>

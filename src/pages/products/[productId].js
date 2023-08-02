@@ -1,14 +1,17 @@
 import { Button } from "antd";
 import Image from "next/image";
+import Navbar from "../../shared/navbar";
 
 const ProductDetails = ({ product }) => {
 
   const keyFeaturesArray = Object.entries(product?.KeyFeatures || {});
   const reviewsList = product?.Reviews || [];
     return (
-      <div className="flex max-w-7xl mx-auto items-center border-b border-gray-300 w-[80%]">
+      <>
+      <Navbar></Navbar>
+        <div className="flex max-w-7xl mx-auto items-center border-b border-gray-300 w-[80%]">
         <div className="w-[50%]">
-          {/* <Image src={product?.image} alt="" /> */}
+          <Image  width={"500"} height={"500"} src={product?.Image} alt="" />
         </div>
         <div className="w-[50%] space-y-3">
           <h1 className="text-3xl font-semibold">{product?.ProductName}</h1>
@@ -41,6 +44,8 @@ const ProductDetails = ({ product }) => {
     </Button>
         </div>
       </div>
+      </>
+    
     );
   };
   

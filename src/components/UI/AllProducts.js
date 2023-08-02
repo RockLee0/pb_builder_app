@@ -36,7 +36,7 @@ const AllProducts = ({ products }) => {
               hoverable
               cover={
                 <Image
-                  src={product?.image}
+                  src={product?.Image}
                   width={500}
                   height={200}
                   responsive

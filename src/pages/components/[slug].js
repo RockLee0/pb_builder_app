@@ -9,11 +9,13 @@ import {
   ProfileOutlined,
 } from "@ant-design/icons";
 import Link from "next/link";
+import Navbar from '../../shared/navbar';
 
 const items = ({products}) => {
   console.log(products)
     return (
         <>
+        <Navbar></Navbar>
         <h1
           style={{
             textAlign: "center",
@@ -39,7 +41,7 @@ const items = ({products}) => {
                 hoverable
                 cover={
                   <Image
-                    src={product?.image}
+                    src={product?.Image}
                     width={500}
                     height={200}
                     responsive
@@ -78,7 +80,7 @@ const items = ({products}) => {
                   Rating : {product?.Rating}
                   </span>
                 </p>
-                <Link href={"http://localhost:3000/PCBuilder"}>
+                <Link href={`/products/${product?.id}`}>
                   <p
                     style={{
                       fontSize: "15px",
@@ -92,7 +94,7 @@ const items = ({products}) => {
                       textAlign: "center",
                     }}
                   >
-                   Choose 
+                   See Details
                   </p>
                 </Link>
               </Card> 

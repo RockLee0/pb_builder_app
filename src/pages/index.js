@@ -3,19 +3,18 @@ import { Inter } from 'next/font/google'
 import Navbar from '../shared/navbar.js'
 import AllProducts from '../components/UI/AllProducts.js'
 import AllCategories from '../components/UI/AllCategories.js'
-const inter = Inter({ subsets: ['latin'] })
-
+import AllThings from '../components/UI/AllThings.js'
 export default function Home({data}) {
+  
   return (
 <>
-    <Navbar></Navbar>
+  <Navbar></Navbar>
    <AllProducts products={data}></AllProducts>
-   <AllCategories></AllCategories>
+   {/* <AllCategories></AllCategories> */}
+   <AllThings></AllThings>
 </>
   )
 }
-
-
 
 
 export async function getStaticProps() {

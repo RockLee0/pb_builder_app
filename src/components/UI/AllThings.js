@@ -9,7 +9,7 @@ import {
 } from "@ant-design/icons";
 import Link from "next/link";
 
-const AllCategories = () => {
+const AllThings = () => {
   const categories =[ "CPU_Processor","Motherboard","RAM","Power Supply Unit","Storage Device","Monitor","Others"]
   const { Meta } = Card;
   return (
@@ -38,17 +38,7 @@ const AllCategories = () => {
                   backgroundColor:"gray"
                 }}
               
-              hoverable
-              // cover={
-              //   <Image
-              //     src={category?.Image}
-              //     width={500}
-              //     height={200}
-              //     responsive
-              //     alt="product image"
-              //   />
-              // }
-            >
+              hoverable>
              
               <p
                 style={{
@@ -67,7 +57,7 @@ const AllCategories = () => {
               </p>
 
 
-              <Link style={{justifyContent:"center",marginLeft:"50px"}}  href={`/categories/${category}`}>
+              <Link style={{justifyContent:"center",marginLeft:"50px"}}  href={`/components/${category}`}>
                 <Button
                   style={{
                     fontSize: "15px",
@@ -82,7 +72,7 @@ const AllCategories = () => {
                     justifyContent: "center" 
                   }}
                 >
-                  Explore
+                  See Products
                 </Button>
               </Link>
             </Card> 
@@ -93,7 +83,7 @@ const AllCategories = () => {
   );
 };
 
-export default AllCategories;
+export default AllThings;
 
 
 
