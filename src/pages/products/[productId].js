@@ -8,12 +8,12 @@ const ProductDetails = ({ product }) => {
   const reviewsList = product?.Reviews || [];
     return (
       <>
-      <Navbar></Navbar>
+      
         <div className="flex max-w-7xl mx-auto items-center border-b border-gray-300 w-[80%]">
         <div className="w-[50%]">
           <Image  width={"500"} height={"500"} src={product?.Image} alt="" />
         </div>
-        <div className="w-[50%] space-y-3">
+        <div className="w-[50%] m-[5%] space-y-3">
           <h1 className="text-3xl font-semibold">{product?.ProductName}</h1>
           <p className="text-xl">Category: {product?.Category}</p>
           <p className="text-xl">Status: {product?.Status}</p>

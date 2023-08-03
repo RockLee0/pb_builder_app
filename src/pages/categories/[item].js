@@ -16,7 +16,7 @@ const items = ({products}) => {
   console.log(products)
     return (
         <>
-        <Navbar></Navbar>
+      
         
         <h1
           style={{

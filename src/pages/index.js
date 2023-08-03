@@ -8,7 +8,7 @@ export default function Home({data}) {
   
   return (
 <>
-  <Navbar></Navbar>
+
    <AllProducts products={data}></AllProducts>
    {/* <AllCategories></AllCategories> */}
    <AllThings></AllThings>
