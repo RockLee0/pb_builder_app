@@ -4,11 +4,13 @@ import Navbar from '../shared/navbar.js'
 import AllProducts from '../components/UI/AllProducts.js'
 import AllCategories from '../components/UI/AllCategories.js'
 import AllThings from '../components/UI/AllThings.js'
+import Banner from '../components/UI/Banner.js'
+
 export default function Home({data}) {
   
   return (
 <>
-
+    <Banner></Banner>
    <AllProducts products={data}></AllProducts>
    {/* <AllCategories></AllCategories> */}
    <AllThings></AllThings>
