@@ -35,19 +35,11 @@ const AllCategories = () => {
         {categories?.map((category) => (
           <Col key={category} className="gutter-row" span={6}>
             <Card style={{
-                  backgroundColor:"gray"
+                  backgroundColor:"gray",
+                  height:"100%"
                 }}
               
               hoverable
-              // cover={
-              //   <Image
-              //     src={category?.Image}
-              //     width={500}
-              //     height={200}
-              //     responsive
-              //     alt="product image"
-              //   />
-              // }
             >
              
               <p

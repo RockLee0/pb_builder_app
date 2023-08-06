@@ -20,8 +20,9 @@ export default function Home({data}) {
 
 
 export async function getStaticProps() {
-  const res = await fetch("http://localhost:5000/products")
-  const allData = await res.json();
+  const res = await fetch("https://pc-server.vercel.app/products")
+  const allData1 = await res.json();
+  const allData=allData1.data;
   // Create an empty array to store limited data
   const limitedData = [];
 

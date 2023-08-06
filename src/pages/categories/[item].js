@@ -1,6 +1,6 @@
 import React from 'react';
-import { Card, Col, Row } from "antd";
-import Image from "next/image";
+import { Card, Col, Image, Row } from "antd";
+
 
 import {
   ArrowRightOutlined,
@@ -36,13 +36,13 @@ const items = ({products}) => {
           }}
         >
           {products?.map((product) => (
-            <Col key={product.id} className="gutter-row" span={6}>
+            <Col style={{height:"100" , width:"100%"}} key={product.id} className="gutter-row" span={6}>
               <Card
                 hoverable
                 cover={
                   <Image
                     src={product?.Image}
-                    width={500}
+                    width={325}
                     height={200}
                     responsive
                     alt="product image"
@@ -110,8 +110,9 @@ export default items;
 
 
 export async function getStaticPaths() {
-    const res = await fetch("http://localhost:5000/products")
-    const products = await res.json();
+    const res = await fetch("https://pc-server.vercel.app/products")
+    const products1 = await res.json();
+    const products=products1.data;
     const paths = products.map((product)=>({
         params:{item:product.Category}
     }))
@@ -124,12 +125,12 @@ export async function getStaticPaths() {
   
   export async function getStaticProps(context) {
     const {params}=context;
-    const res = await fetch(`http://localhost:5000/products?Category=${params.item}`)
+    const res = await fetch(`https://pc-server.vercel.app/products/search/${params.item}`)
     const allData = await res.json();
-    console.log(allData)
+    console.log(allData.data)
     return {
       props: {
-        products: allData,
+        products: allData.data,
       }
     };
   }

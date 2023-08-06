@@ -5,13 +5,14 @@ const contentStyle = {
   color: '#fff',
   lineHeight: '160px',
   textAlign: 'center',
-  background: '#364d79',
+  background: '#000000',
+  
 };
 const Banner = () => (
   <Carousel autoplay >
     <div>
       <h3 style={contentStyle}>
-        <Image alt='computer image 1' src='https://www.startech.com.bd/image/cache/catalog/home/banner/free-delivery-on-app-may-home-banner-982x500.webp'></Image>
+        <Image  alt='computer image 1' src='https://www.startech.com.bd/image/cache/catalog/home/banner/free-delivery-on-app-may-home-banner-982x500.webp'></Image>
       </h3>
     </div>
     <div>

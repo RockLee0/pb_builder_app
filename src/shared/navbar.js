@@ -2,6 +2,9 @@ import React from 'react';
 import {Button, Space,Dropdown  } from 'antd';
 import Link from "next/link";
 import { useSession,  signOut } from "next-auth/react"
+import { Input } from 'antd';
+const { Search } = Input;
+
 
 const Navbar = () => {
   const { data: session } = useSession()
@@ -15,7 +18,7 @@ const Navbar = () => {
     paddingInline: 50,
     width:'100%',
     lineHeight: '64px',
-    backgroundColor: '#5b5452',
+    backgroundColor: ' #5F9EA0',
   };
   const items = [
     {
@@ -110,6 +113,10 @@ const Navbar = () => {
           </Button>          
         </Link>       
         }
+
+<Search style={{padding:"9px"}} placeholder="input search text" enterButton="Search" size="large" />
+
+
 
     </Space>
     
