@@ -24,7 +24,7 @@ const Navbar = () => {
     {
       key: '1',
       label: (
-        <a target="_blank" rel="noopener noreferrer" href="http://localhost:3000/components/CPU_Processor">
+        <a target="_blank" rel="noopener noreferrer" href="https://pc-builder-app-alpha.vercel.app/components/CPU_Processor">
           CPU / Processor
         </a>
       ),
@@ -32,7 +32,7 @@ const Navbar = () => {
     {
       key: '2',
       label: (
-        <a target="_blank" rel="noopener noreferrer" href="http://localhost:3000/components/Motherboard">
+        <a target="_blank" rel="noopener noreferrer" href="https://pc-builder-app-alpha.vercel.app/components/Motherboard">
           Motherboard
         </a>
       ),
@@ -40,7 +40,7 @@ const Navbar = () => {
     {
       key: '3',
       label: (
-        <a target="_blank" rel="noopener noreferrer" href="http://localhost:3000/components/RAM">
+        <a target="_blank" rel="noopener noreferrer" href="https://pc-builder-app-alpha.vercel.app/components/RAM">
           RAM
         </a>
       ),
@@ -48,7 +48,7 @@ const Navbar = () => {
     {
       key: '4',
       label: (
-        <a target="_blank" rel="noopener noreferrer" href="http://localhost:3000/components/Power Supply Unit">
+        <a target="_blank" rel="noopener noreferrer" href="https://pc-builder-app-alpha.vercel.app/components/Power Supply Unit">
           Power Supply Unit
         </a>
       ),
@@ -56,7 +56,7 @@ const Navbar = () => {
     {
       key: '5',
       label: (
-        <a target="_blank" rel="noopener noreferrer" href="http://localhost:3000/components/Storage Device">
+        <a target="_blank" rel="noopener noreferrer" href="https://pc-builder-app-alpha.vercel.app/components/Storage Device">
           Storage Device
         </a>
       ),
@@ -64,7 +64,7 @@ const Navbar = () => {
     {
       key: '6',
       label: (
-        <a target="_blank" rel="noopener noreferrer" href="http://localhost:3000/components/Monitor">
+        <a target="_blank" rel="noopener noreferrer" href="https://pc-builder-app-alpha.vercel.app/components/Monitor">
         Monitor
         </a>
       ),
@@ -72,7 +72,7 @@ const Navbar = () => {
     {
       key: '7',
       label: (
-        <a target="_blank" rel="noopener noreferrer" href="http://localhost:3000/components/Others">
+        <a target="_blank" rel="noopener noreferrer" href="https://pc-builder-app-alpha.vercel.app/components/Others">
           Others
         </a>
       ),
@@ -82,10 +82,10 @@ const Navbar = () => {
     <>
     
     <Space style={headerStyle}>
-    <a target="_blank" rel="noopener noreferrer" href="http://localhost:3000">
+    <a target="_blank" rel="noopener noreferrer" href="https://pc-builder-app-alpha.vercel.app/">
     <Button>Home</Button>
         </a>
-    <a target="_blank" rel="noopener noreferrer" href="http://localhost:3000/PCBuilder">
+    <a target="_blank" rel="noopener noreferrer" href="https://pc-builder-app-alpha.vercel.app/PCBuilder">
     <Button>PC Builder</Button>
         </a>
    
